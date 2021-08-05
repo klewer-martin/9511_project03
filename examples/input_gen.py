@@ -2,7 +2,7 @@ from string import digits
 from time import strftime, gmtime
 from random import randint, choice
 
-LINES = 10000
+LINES = 1000000
 
 # OUTPUT:
 #     ID_TRANSACCION, ID_USUARIO, FECHA, MONTO, NUMERO DE TRAJETA, DESCRIPCION
@@ -92,7 +92,7 @@ def generate_card(type):
 def generate_file(max_lines):
     id_transaction_base = 123400
     id_user_base = 1
-    id_user_max = 30000
+    id_user_max = 50000
     amount_base = 1
     amount_max = 10000
     for i in range(max_lines):

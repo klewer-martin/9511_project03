@@ -57,8 +57,14 @@ run100k:
 run500k:
 	./main -fmt csv -out output.csv -in examples/test_file_500k.csv -ti 1320498000 -tf 1420529000
 
-run50m:
-	./main -fmt csv -out output.csv -in examples/test_file_50m.csv -ti 1320498000 -tf 1420529000
+run1m:
+	./main -fmt csv -out output.csv -in examples/test_file_1m.csv -ti 1320498000 -tf 1420529000
+
+run10m:
+	./main -fmt csv -out output.csv -in examples/test_file_10m.csv -ti 1320498000 -tf 1420529000
+
+run5m:
+	./main -fmt csv -out output.csv -in examples/test_file_5m.csv -ti 1320498000 -tf 1420529000
 
 run50xml:
 	./main -fmt xml -out output.xml -in examples/test_file_50.csv -ti 1320498000 -tf 1320498049
